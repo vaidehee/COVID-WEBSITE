@@ -1,0 +1,54 @@
+body{
+    height:5000px;
+    background-color: white;
+}
+
+
+
+.banner{
+    height: 600px;
+    background-color:gray;
+    background-image:url('HeAd.png');
+    background-size: cover;
+    display: flex;
+    padding: 150px;
+    justify-content: flex-start;
+}
+
+.banner_content{
+    
+    background-color: rgba(255, 255, 255, 0.5);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.padd{
+    padding: 40px;
+}
+
+.banner_tittle{
+    font-size: 22px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.info{
+    height:1500px;
+    background-color:white;
+    background-image: url('BG\ IMAGE.png');
+    background-size: cover;
+    padding: 5%;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  /* css for mobile*/
+
+
+  @media (max-width::500px){
+      .banner_content{
+          height: 150px;
+      }
+  }
